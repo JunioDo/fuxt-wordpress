@@ -2,13 +2,6 @@
 
 A complete Headless WordPress tech stack built on Nuxt, using GraphQL.
 
-Works best with the [fuxt-backend](https://github.com/funkhaus/fuxt-backend) WordPress theme and included WordPress optimized components.
-
-We also have some [Shopify components under development here](https://github.com/funkhaus/shophaus). Headless Shopify and WordPress together finally!
-
-Built by [Funkhaus](http://funkhaus.us/). We normally host on [Flywheel](https://share.getf.ly/n02x5z).
-
-PS: The name Fuxt comes from [Funkhaus](https://funkhaus.us) and Nuxt. [It's provocative](https://www.youtube.com/watch?v=_eRRab36XLI).
 
 ## Features
 
@@ -18,7 +11,7 @@ PS: The name Fuxt comes from [Funkhaus](https://funkhaus.us) and Nuxt. [It's pro
 -   Supports Gutenberg blocks on frontend and backend!
 -   Includes [Nuxt Storybook module](https://storybook.nuxtjs.org/)!
 -   Includes custom module for nuxtGenerateInit. Populate the store once at the beginning of Generate!
--   Optimized [fuxt-backend](https://github.com/funkhaus/fuxt-backend) WordPress theme:
+-   Optimized WordPress theme:
     -   Auto installs any WordPress plugin dependencies
     -   GraphQL powered API using [Nuxt GraphQL Request](https://www.npmjs.com/package/nuxt-graphql-request)
     -   [ACF](https://www.advancedcustomfields.com/) first class citizen
@@ -44,7 +37,7 @@ PS: The name Fuxt comes from [Funkhaus](https://funkhaus.us) and Nuxt. [It's pro
 
 **This is just a [Nuxt site](https://nuxtjs.org), so it builds and deploys like any other Nuxt project.**
 
-Works best with the [fuxt-backend](https://github.com/funkhaus/fuxt-backend) WordPress theme as the backend.
+Works best with the  WordPress theme as the backend.
 
 **First step:** Duplicate and rename `.example.env` to `.env`. Define any vars environment needed there.
 
@@ -72,4 +65,4 @@ $ npm run generate
 
 ## Documentation
 
-For detailed explanation on how things work, checkout [the wiki](https://github.com/funkhaus/fuxt/wiki).
+For detailed explanation on how things work, checkout.
